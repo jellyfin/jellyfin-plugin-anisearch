@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Jellyfin.Plugin.Anime.Configuration;
+using Jellyfin.Plugin.AniSearch.Configuration;
 using MediaBrowser.Controller.Entities.TV;
 
-namespace Jellyfin.Plugin.Anime.Providers
+namespace Jellyfin.Plugin.AniSearch.Providers
 {
     public static class GenreHelper
     {
