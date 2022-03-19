@@ -1,7 +1,7 @@
 name: "AniSearch"
 guid: "776d9158-b91f-49d9-82c5-dacce63d63b8"
 imageUrl: "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anisearch.png"
-version: "4"
+version: "5"
 targetAbi: "10.8.0.0"
 framework: "net6.0"
 owner: "jellyfin"
