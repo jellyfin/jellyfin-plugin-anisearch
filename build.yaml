@@ -1,7 +1,7 @@
 name: "AniSearch"
 guid: "776d9158-b91f-49d9-82c5-dacce63d63b8"
 imageUrl: "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anisearch.png"
-version: "5"
+version: 5
 targetAbi: "10.9.0.0"
 framework: "net8.0"
 owner: "jellyfin"
@@ -12,4 +12,16 @@ description: >
 category: "Metadata"
 artifacts:
   - "Jellyfin.Plugin.AniSearch.dll"
-changelog: |2-
+changelog: |-
+  - 10.9 (#22) @crobibero
+
+  ### Code or Repo Maintenance ###
+  - Update link to Jellyfin website (#21) @methbkts
+  - Use meta ci (#13) @crobibero
+
+  ### Dependency updates ###
+  - chore(deps): update dependency microsoft.extensions.http to v6 (#17) @renovate
+
+  ### CI & build changes ###
+  - fix: meta ci workflows (#16) @h1dden-da3m0n
+  - Use meta ci (#13) @crobibero
