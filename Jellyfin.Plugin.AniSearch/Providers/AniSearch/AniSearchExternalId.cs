@@ -18,8 +18,5 @@ namespace Jellyfin.Plugin.AniSearch.Providers.AniSearch
 
         public ExternalIdMediaType? Type
             => ExternalIdMediaType.Series;
-
-        public string UrlFormatString
-            => "https://www.anisearch.com/anime/{0}";
     }
 }
