@@ -1,7 +1,7 @@
 name: "AniSearch"
 guid: "776d9158-b91f-49d9-82c5-dacce63d63b8"
 imageUrl: "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anisearch.png"
-version: 6
+version: 7
 targetAbi: "12.0.0.0"
 framework: "net10.0"
 owner: "jellyfin"
@@ -13,4 +13,9 @@ category: "Anime"
 artifacts:
   - "Jellyfin.Plugin.AniSearch.dll"
 changelog: |-
-  - Jellyfin 10.11 support (#28) @crobibero
+  - Unstable: Update to latest Jellyfin preview packages (#38) @crobibero, @jellyfin-bot
+  - Revert "Update dependency Microsoft.Extensions.Http to v10" (#34) @Shadowghost
+
+  ### Dependency updates ###
+  - Update dependency Microsoft.Extensions.Http to 9.0.11 (#24) [@renovate[bot]](https://github.com/apps/renovate)
+  - Update dependency Microsoft.Extensions.Http to v10 (#32) [@renovate[bot]](https://github.com/apps/renovate)
